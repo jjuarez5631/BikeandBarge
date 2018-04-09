@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imgBike"
+            android:layout_width="522dp"
+            android:layout_height="232dp"
+            android:contentDescription="@string/txtDescription"
+            android:padding="15sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bike" />
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBike"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imgBarge"
+            android:layout_width="522dp"
+            android:layout_height="232dp"
+            android:contentDescription="@string/txtDescription"
+            android:padding="15sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/barge" />
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBarge"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imgBudapest"
+            android:layout_width="522dp"
+            android:layout_height="232dp"
+            android:contentDescription="@string/txtDescription"
+            android:padding="15sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/parliment" />
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBudapest"
+            android:textSize="30sp" />
+    </TableRow>
+
+</TableLayout>
